@@ -1,0 +1,17 @@
+.links-container {
+  display: grid;
+  grid-template-columns: 304px 128px auto;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  padding: 10px;
+  border: 3px double #eee;
+}
+  
+#forc-poster {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.link-icon {
+  width: 128px;
+}
