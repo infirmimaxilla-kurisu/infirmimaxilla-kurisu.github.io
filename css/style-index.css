@@ -4,7 +4,7 @@
   grid-template-rows: repeat(2, 1fr);
   gap: 20px;
   padding: 10px;
-  border: 3px double #eee;
+  border: 3px double #000;
 }
   
 #forc-poster {
