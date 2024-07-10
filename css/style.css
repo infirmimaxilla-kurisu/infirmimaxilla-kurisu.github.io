@@ -1,1 +1,32 @@
+body {margin: 0px;
+      font-family: Sans-serif; }
 
+header {background: black;
+        color: white;}
+
+header h1 {font-size: 24px;
+           font-style: italic;
+           margin: 0px;
+           padding: 10px 0px;}
+
+nav {background: #333333;
+     height: 40px;
+     padding: 8px 0px;
+     box-sizing: border-box;}
+
+nav a {height: 24px;
+       padding-right: 10px;
+       color: #e0e0e0;}
+
+.content {width: 80%;
+          margin: 0px auto;}
+
+#banner-logo {height: 44px;
+           display: block;
+           margin: 6px 10px 0 0;
+           float: left;
+          }
+
+#banner-text {float: left;
+              margin-top: 10px;
+             }
