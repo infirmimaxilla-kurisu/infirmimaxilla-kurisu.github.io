@@ -22,7 +22,9 @@ nav {font-family: OcclupanidMarkings;
 
 nav a {height: 24px;
        padding-right: 10px;
-       color: #e0e0e0;}
+       color: #e0e0e0;
+       font-size: 24px;
+       text-decoration: none}
 
 .content {width: 80%;
           margin: 0px auto;}
