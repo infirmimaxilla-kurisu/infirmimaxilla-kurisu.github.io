@@ -4,7 +4,7 @@
     }
 
 body {margin: 0px;
-      font-family: Sans-serif; }
+      font-family: Sans-serif;}
 
 header {background: black;
         color: white;}
@@ -14,7 +14,8 @@ header h1 {font-size: 24px;
            margin: 0px;
            padding: 10px 0px;}
 
-nav {background: #333333;
+nav {font-family: OcclupanidMarkings;
+     background: #333333;
      height: 40px;
      padding: 8px 0px;
      box-sizing: border-box;}
