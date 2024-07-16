@@ -1,3 +1,8 @@
+@font-face {
+      font-family: OcclupanidMarkings;
+      src: url("../pagefiles/OcclupanidMarkingsLight08.otf");
+    }
+
 body {margin: 0px;
       font-family: Sans-serif; }
 
