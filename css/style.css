@@ -26,6 +26,8 @@ nav a {height: 24px;
        font-size: 24px;
        text-decoration: none}
 
+.nav-button-spacer {border-left: 2px solid #e0e0e0;}
+
 .content {width: 80%;
           margin: 0px auto;}
 
