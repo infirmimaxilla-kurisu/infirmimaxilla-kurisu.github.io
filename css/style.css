@@ -28,6 +28,14 @@ nav a {height: 24px;
 
 .nav-button-spacer {border-left: 2px solid #e0e0e0;}
 
+.nav-button {
+      text-align: center;
+}
+.nav-button:hover {
+      border-radius: 10px;
+      background-color: #000000;
+}
+
 .content {width: 80%;
           margin: 0px auto;}
 
