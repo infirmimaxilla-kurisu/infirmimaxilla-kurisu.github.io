@@ -6,8 +6,8 @@
 body {margin: 0px;
       font-family: Sans-serif;}
 
-header {background: black;
-        color: white;}
+header {background: #000;
+        color: #fff;}
 
 header h1 {font-size: 24px;
            font-style: italic;
@@ -15,25 +15,25 @@ header h1 {font-size: 24px;
            padding: 10px 0px;}
 
 nav {font-family: OcclupanidMarkings;
-     background: #333333;
-     height: 40px;
+     background: #333;
+     height: 80px;
      padding: 8px 0px;
-     box-sizing: border-box;}
+     box-sizing: border-box;
+     display: table;
+     width: 100%
+}
 
-nav a {height: 24px;
+nav a {height: 20px;
        padding-right: 10px;
        color: #e0e0e0;
-       font-size: 24px;
+       font-size: 30px;
        text-decoration: none}
 
 .nav-button-spacer {border-left: 2px solid #e0e0e0;}
 
-.nav-button {
-      text-align: center;
-}
 .nav-button:hover {
       border-radius: 10px;
-      background-color: #000000;
+      background-color: #000;
 }
 
 .content {width: 80%;
@@ -48,3 +48,8 @@ nav a {height: 24px;
 #banner-text {float: left;
               margin-top: 10px;
              }
+
+#nav-content {text-align: center;
+              vertical-align: middle;
+              display: table-cell;
+            }
