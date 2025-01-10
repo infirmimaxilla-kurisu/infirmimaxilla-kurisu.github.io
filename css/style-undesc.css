@@ -1,0 +1,63 @@
+table, th, td {
+  border: 2px solid #000;
+  border-collapse: collapse;
+  font-size: 20px;
+  padding: 5px
+}
+
+#undesc-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.species-entry {width: 375px; height: min-content;}
+
+.specimen-image-cell {width: 175px;}
+
+.image-bg-pl {background-color: #000;}
+.image-bg-ca {background-color: #4C5B41;}
+.image-bg-ps {background-color: #555;}
+
+.specimen-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-credit {
+  background-color: #ddd;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.search-code {
+  text-align: center;
+  font-style: italic;
+  font-size: 17.5px;
+}
+
+.family-text {
+  text-align: center;
+  font-weight: bold;
+}
+
+.family-cart {background-color: #C5C39C}
+.family-arc {background-color: #CFE6BD}
+.family-arc2 {background-color: #F2F7D6}
+.family-acu {background-color: #E0CCE1}
+.family-ang {background-color: #CEECFC}
+.family-con {background-color: #CFE9D7}
+.family-cor {background-color: #F9C8D6}
+.family-eno {background-color: #FDD9C8}
+.family-hap {background-color: #FDE2DB}
+.family-ken {background-color: #B2D7F3}
+.family-myc {background-color: #C1C1D2}
+.family-nov {background-color: #F4FBFE}
+.family-pla {background-color: #F8E6F0}
+.family-spi {background-color: #EBDBEB}
+.family-tox {background-color: #F8AA92}
+.family-tri {background-color: #FDE5D4}
+
+.not-acq, .HORG-received {color: #F00}
