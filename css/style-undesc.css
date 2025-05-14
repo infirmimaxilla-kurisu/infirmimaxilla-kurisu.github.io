@@ -32,15 +32,17 @@ table, th, td {
   font-weight: bold;
 }
 
-.search-code {
-  text-align: center;
+.identifier {
+  font-weight: bold;
   font-style: italic;
-  font-size: 17.5px;
+  font-size: 15px;
 }
 
-.family-text {
-  text-align: center;
+.uid {
+  width: 20px;
+  text-align: right;
   font-weight: bold;
+  font-size: 17.5px;
 }
 
 .family-cart {background-color: #C5C39C}
