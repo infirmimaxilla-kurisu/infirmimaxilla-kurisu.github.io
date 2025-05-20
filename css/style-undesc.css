@@ -5,16 +5,25 @@ table, th, td {
   padding: 5px
 }
 
-#undesc-grid {
+.undesc-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
   column-gap: 10px;
   row-gap: 10px;
 }
+.undesc-grid-pseudo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(295px, 1fr));
+  column-gap: 10px;
+  row-gap: 10px;
+}
 
+.category-divider {border-top: 5px solid #000;}
 .species-entry {width: 375px; height: min-content;}
+.pseudo-entry {width: 300px; height: min-content;}
 
 .specimen-image-cell {width: 175px;}
+.pseudo-image-cell {width: 50px;}
 
 .image-bg-pl {background-color: #000;}
 .image-bg-ca {background-color: #4C5B41;}
