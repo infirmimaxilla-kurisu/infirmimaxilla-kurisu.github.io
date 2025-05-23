@@ -1,8 +1,16 @@
+main {padding-bottom:50px}
+
 table, th, td {
   border: 2px solid #000;
   border-collapse: collapse;
   font-size: 20px;
   padding: 5px
+}
+
+.list-bullet  {
+  list-style-position: inside;
+  padding-left: 25px;
+  text-indent: -19px;
 }
 
 .undesc-grid {
