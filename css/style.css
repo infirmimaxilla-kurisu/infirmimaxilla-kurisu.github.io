@@ -7,7 +7,9 @@ body {margin: 0px;
       font-family: Sans-serif;}
 
 header {background: #000;
-        color: #fff;}
+        color: #fff;
+        position: sticky;
+        top: 0;}
 
 header h1 {font-size: 24px;
            font-style: italic;
@@ -20,8 +22,9 @@ nav {font-family: OcclupanidMarkings;
      padding: 8px 0px;
      box-sizing: border-box;
      display: table;
-     width: 100%
-}
+     width: 100%;
+     position: sticky;
+     top: 58px}
 
 nav a {height: 20px;
        padding-right: 10px;
@@ -31,25 +34,36 @@ nav a {height: 20px;
 
 .nav-button-spacer {border-left: 2px solid #e0e0e0;}
 
-.nav-button:hover {
-      border-radius: 10px;
-      background-color: #000;
-}
+.nav-button:hover {border-radius: 10px;
+                   background-color: #000;}
+
+main {background: var(--bg);
+      color: var(--text)}
+
+:root {--bg:#000;
+       --text:#fff;
+       --link:#4CB5E5;
+       --link-visited:#AB7CBF;}
+#color-mode:checked ~ main {--bg:#fff;
+                            --text:#000;
+                            --link:#0066CC;
+                            --link-visited:#551A8B;}
+
+
+main a:link {color: var(--link)}
+main a:visited {color: var(--link-visited)}
 
 .content {width: 80%;
-          margin: 0px auto;}
+          margin: 0px auto}
 
 #banner-logo {height: 44px;
-           display: block;
-           margin: 6px 10px 0 0;
-           float: left;
-          }
+              display: block;
+              margin: 6px 10px 0 0;
+              float: left;}
 
 #banner-text {float: left;
-              margin-top: 10px;
-             }
+              margin-top: 10px;}
 
 #nav-content {text-align: center;
               vertical-align: middle;
-              display: table-cell;
-            }
+              display: table-cell;}

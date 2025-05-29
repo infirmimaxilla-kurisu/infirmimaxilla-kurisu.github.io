@@ -1,7 +1,83 @@
 main {padding-bottom:50px}
 
+:root {--border:2px solid #999;
+       --divider:5px solid #bbb;
+       --credit-bg:#222;
+       --credit-text:#ddd;
+       --bg-cart:#000;
+       --bg-arc:#000;
+       --bg-arc2:#000;
+       --bg-acu:#000;
+       --bg-ang:#000;
+       --bg-con:#000;
+       --bg-cor:#000;
+       --bg-eno:#000;
+       --bg-hap:#000;
+       --bg-ken:#000;
+       --bg-myc:#000;
+       --bg-nov:#000;
+       --bg-pla:#000;
+       --bg-spi:#000;
+       --bg-tox:#000;
+       --bg-tri:#000;
+       --txt-cart:#C5C39C;
+       --txt-arc:#CFE6BD;
+       --txt-arc2:#F2F7D6;
+       --txt-acu:#E0CCE1;
+       --txt-ang:#CEECFC;
+       --txt-con:#CFE9D7;
+       --txt-cor:#F9C8D6;
+       --txt-eno:#FDD9C8;
+       --txt-hap:#FDE2DB;
+       --txt-ken:#B2D7F3;
+       --txt-myc:#C1C1D2;
+       --txt-nov:#F4FBFE;
+       --txt-pla:#F8E6F0;
+       --txt-spi:#EBDBEB;
+       --txt-tox:#F8AA92;
+       --txt-tri:#FDE5D4;
+       --txt-red:#EE1C25}
+
+#color-mode:checked ~ main {--border:2px solid #000;
+                            --divider:5px solid #000;
+                            --credit-bg:#ddd;
+                            --credit-text:#000;
+                            --bg-cart:#C5C39C;
+                            --bg-arc:#CFE6BD;
+                            --bg-arc2:#F2F7D6;
+                            --bg-acu:#E0CCE1;
+                            --bg-ang:#CEECFC;
+                            --bg-con:#CFE9D7;
+                            --bg-cor:#F9C8D6;
+                            --bg-eno:#FDD9C8;
+                            --bg-hap:#FDE2DB;
+                            --bg-ken:#B2D7F3;
+                            --bg-myc:#C1C1D2;
+                            --bg-nov:#F4FBFE;
+                            --bg-pla:#F8E6F0;
+                            --bg-spi:#EBDBEB;
+                            --bg-tox:#F8AA92;
+                            --bg-tri:#FDE5D4;
+                            --txt-cart:#000;
+                            --txt-arc:#000;
+                            --txt-arc2:#000;
+                            --txt-acu:#000;
+                            --txt-ang:#000;
+                            --txt-con:#000;
+                            --txt-cor:#000;
+                            --txt-eno:#000;
+                            --txt-hap:#000;
+                            --txt-ken:#000;
+                            --txt-myc:#000;
+                            --txt-nov:#000;
+                            --txt-pla:#000;
+                            --txt-spi:#000;
+                            --txt-tox:#000;
+                            --txt-tri:#000;
+                            --txt-red:#D1212F}
+
 table, th, td {
-  border: 2px solid #000;
+  border: var(--border);
   border-collapse: collapse;
   font-size: 20px;
   padding: 5px
@@ -26,7 +102,8 @@ table, th, td {
   row-gap: 10px;
 }
 
-.category-divider {border-top: 5px solid #000;}
+.category-divider {border-top: var(--divider)}
+
 .species-entry {width: 375px; height: min-content;}
 .pseudo-entry {width: 300px; height: min-content;}
 
@@ -43,8 +120,15 @@ table, th, td {
   margin-right: auto;
 }
 
+.specimen-img-inline {
+  float: left;
+  height: 66px;
+  padding-right: 5px;
+}
+
 .img-credit {
-  background-color: #ddd;
+  background-color: var(--credit-bg);
+  color: var(--credit-text);
   font-size: 14px;
   font-weight: bold;
 }
@@ -62,21 +146,37 @@ table, th, td {
   font-size: 17.5px;
 }
 
-.family-cart {background-color: #C5C39C}
-.family-arc {background-color: #CFE6BD}
-.family-arc2 {background-color: #F2F7D6}
-.family-acu {background-color: #E0CCE1}
-.family-ang {background-color: #CEECFC}
-.family-con {background-color: #CFE9D7}
-.family-cor {background-color: #F9C8D6}
-.family-eno {background-color: #FDD9C8}
-.family-hap {background-color: #FDE2DB}
-.family-ken {background-color: #B2D7F3}
-.family-myc {background-color: #C1C1D2}
-.family-nov {background-color: #F4FBFE}
-.family-pla {background-color: #F8E6F0}
-.family-spi {background-color: #EBDBEB}
-.family-tox {background-color: #F8AA92}
-.family-tri {background-color: #FDE5D4}
+.family-cart {background-color: var(--bg-cart);
+              color:  var(--txt-cart)}
+.family-arc {background-color: var(--bg-arc);
+             color: var(--txt-arc)}
+.family-arc2 {background-color: var(--bg-arc2);
+             color: var(--txt-arc2)}
+.family-acu {background-color: var(--bg-acu);
+             color: var(--txt-acu)}
+.family-ang {background-color: var(--bg-ang);
+             color: var(--txt-ang)}
+.family-con {background-color: var(--bg-con);
+             color: var(--txt-con)}
+.family-cor {background-color: var(--bg-cor);
+             color: var(--txt-cor)}
+.family-eno {background-color: var(--bg-eno);
+             color: var(--txt-eno)}
+.family-hap {background-color: var(--bg-hap);
+             color: var(--txt-hap)}
+.family-ken {background-color: var(--bg-ken);
+             color: var(--txt-ken)}
+.family-myc {background-color: var(--bg-myc);
+             color: var(--txt-myc)}
+.family-nov {background-color: var(--bg-nov);
+             color: var(--txt-nov)}
+.family-pla {background-color: var(--bg-pla);
+             color: var(--txt-pla)}
+.family-spi {background-color: var(--bg-spi);
+             color: var(--txt-spi)}
+.family-tox {background-color: var(--bg-tox);
+             color: var(--txt-tox)}
+.family-tri {background-color: var(--bg-tri);
+             color: var(--txt-tri)}
 
-.not-acq, .HORG-received {color: #F00}
+.not-acq, .HORG-received {color: var(--txt-red)}
