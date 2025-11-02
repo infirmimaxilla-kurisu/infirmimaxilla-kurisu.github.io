@@ -11,25 +11,28 @@ header {background: #000;
         position: sticky;
         top: 0;}
 
-header h1 {font-size: 24px;
-           font-style: italic;
+header img {display:inline}
+
+header span {font-size: 24px;
+           font-style:italic;
+           font-weight: bold;
            margin: 0px;
            padding: 10px 0px;}
 
 nav {font-family: OcclupanidMarkings;
      background: #333;
-     height: 80px;
+     height: 50px;
      padding: 8px 0px;
      box-sizing: border-box;
      display: table;
      width: 100%;
      position: sticky;
-     top: 58px}
+     top: 58px;}
 
 nav a {height: 20px;
        padding-right: 10px;
        color: #e0e0e0;
-       font-size: 35px;
+       font-size: 30px;
        text-decoration: none}
 
 .nav-button-spacer {border-left: 2px solid #e0e0e0;}
